@@ -44,7 +44,7 @@ export default function WhatsAppFloatingButton() {
               >
                 <div>
                   <p className="font-semibold text-navy group-hover:text-emerald-700">
-                    {contact.name} {contact.isPrimary && <span className="text-[10px] text-steel font-normal">(Primary)</span>}
+                    {contact.name} {contact.isPrimary && <span className="text-[10px] text-steel font-normal"></span>}
                   </p>
                   <p className="text-[11px] text-slate-500 flex items-center gap-1 mt-0.5">
                     <Phone className="w-3 h-3 text-steel" />

@@ -160,7 +160,7 @@ export default function HomePage() {
                   </div>
                   <div>
                     <p className="text-[10px] text-ice/70 uppercase font-bold tracking-wider">Fast Response</p>
-                    <p className="text-xs font-bold text-white"> +91 98231 58790</p>
+                    <p className="text-xs font-bold text-white"> +918356058098</p>
                     <p className="text-[11px] text-emerald-400 font-medium">Direct Sourcing Assistance</p>
                   </div>
                 </div>
@@ -242,115 +242,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ========================================================
-          C. PRODUCT CATEGORIES (10 CATEGORIES)
-         ======================================================== */}
-      <section className="py-24 bg-offwhite relative tech-pattern">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          {/* Section Header */}
-          <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
-            <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-md bg-steel/15 text-steel text-xs font-bold uppercase tracking-wider">
-              <Layers className="w-3.5 h-3.5" />
-              <span>Comprehensive Product Portfolio</span>
-            </div>
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold font-heading text-navy tracking-tight">
-              Industrial Electrical Categories
-            </h2>
-            <p className="text-base text-navy/70">
-              Explore our core product categories spanning electrical distribution, cable management, circuit protection, industrial illumination, and electronic control parts.
-            </p>
-          </div>
-
-          {/* Product Category Cards Grid (10 Cards) */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {COMPANY_INFO.categories.map((category, index) => (
-              <article
-                key={category.id}
-                className="group relative bg-white rounded-card overflow-hidden border border-ice/60 shadow-card hover:shadow-card-hover transition-all duration-300 flex flex-col hover:-translate-y-1.5"
-              >
-                {/* Image Container with high-quality graphic */}
-                <div className="relative h-56 bg-navy-900 overflow-hidden flex items-center justify-center">
-                  <img
-                    src={category.image}
-                    alt={category.title}
-                    className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500 ease-out"
-                    loading="lazy"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-navy/80 via-transparent to-transparent opacity-80 group-hover:opacity-60 transition-opacity" />
-                  
-                  {/* Category index badge */}
-                  <span className="absolute top-3 left-3 px-2.5 py-1 rounded-md bg-navy/80 border border-ice/30 text-[11px] font-bold text-ice font-mono">
-                    CAT #{String(index + 1).padStart(2, '0')}
-                  </span>
-                </div>
-
-                {/* Card Content */}
-                <div className="p-6 flex-1 flex flex-col justify-between space-y-4">
-                  <div className="space-y-2">
-                    <h3 className="text-lg font-bold font-heading text-navy group-hover:text-corporate transition-colors">
-                      {category.title}
-                    </h3>
-                    <p className="text-xs sm:text-sm text-navy/70 leading-relaxed">
-                      {category.shortDesc}
-                    </p>
-
-                    {/* Sub-items bullet preview */}
-                    <div className="pt-3 border-t border-ice/30">
-                      <p className="text-[11px] uppercase font-bold text-steel tracking-wider mb-1.5">Includes:</p>
-                      <ul className="text-xs text-navy/80 space-y-1">
-                        {category.subItems.slice(0, 3).map((item, i) => (
-                          <li key={i} className="flex items-center gap-1.5 truncate">
-                            <span className="w-1.5 h-1.5 rounded-full bg-steel shrink-0" />
-                            <span className="truncate">{item}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  </div>
-
-                  {/* Card Action Link */}
-                  <div className="pt-3 border-t border-ice/20 flex items-center justify-between">
-                    <Link
-                      to={`/contact?product=${encodeURIComponent(category.title)}`}
-                      className="inline-flex items-center gap-1.5 text-xs font-bold text-corporate hover:text-steel group-hover:translate-x-1 transition-all"
-                    >
-                      <span>Make an Inquiry</span>
-                      <ArrowRight className="w-3.5 h-3.5" />
-                    </Link>
-
-                    <Link
-                      to={`/products#${category.id}`}
-                      className="text-[11px] font-semibold text-navy/50 hover:text-navy transition-colors"
-                    >
-                      Details & Range
-                    </Link>
-                  </div>
-                </div>
-              </article>
-            ))}
-          </div>
-
-          {/* View All Products CTA Bar */}
-          <div className="mt-14 p-6 sm:p-8 rounded-2xl bg-white border border-ice shadow-sm flex flex-col sm:flex-row items-center justify-between gap-6 text-center sm:text-left">
-            <div>
-              <h3 className="text-lg font-bold text-navy font-heading">
-                Need a specific model, batch requirement, or custom specification?
-              </h3>
-              <p className="text-xs sm:text-sm text-navy/70">
-                Explore our full product breakdown or request a direct quotation tailored to your plant or project bill of materials.
-              </p>
-            </div>
-            <div className="flex items-center gap-3 shrink-0">
-              <Link
-                to="/products"
-                className="px-6 py-3 rounded-xl bg-corporate hover:bg-corporate-hover text-white text-sm font-bold shadow-md transition-colors"
-              >
-                Browse Full Catalog
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
+      
 
       {/* ========================================================
           D. WHY CHOOSE TECHWAVE ENTERPRISES?
@@ -484,7 +376,7 @@ export default function HomePage() {
 
           <div className="pt-6 flex flex-wrap items-center justify-center gap-6 text-xs text-ice/70">
             <span>Direct contact with :</span>
-            <span>+91 98231 58790: +91 99755 89895</span>
+            <span>+918356058098</span>
           </div>
         </div>
       </section>

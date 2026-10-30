@@ -142,17 +142,7 @@ export default function Footer() {
                 </div>
               </div>
 
-              <div>
-                <p className="text-[11px] text-ice/60 uppercase font-semibold">Secondary Contact</p>
-                <div className="flex items-center gap-2 mt-0.5">
-                  <a
-                    href={`tel:+91${COMPANY_INFO.contacts[1].phone}`}
-                    className="text-white hover:text-amber-400 font-medium transition-colors"
-                  >
-                     {COMPANY_INFO.contacts[1].displayPhone}
-                  </a>
-                </div>
-              </div>
+             
 
               <div>
                 <p className="text-[11px] text-ice/60 uppercase font-semibold">Official Email</p>

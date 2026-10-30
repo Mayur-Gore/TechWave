@@ -131,7 +131,7 @@ export default function ContactPage() {
                     
                     <div className="border-b border-ice/40 pb-2">
                       <p className="text-xs font-semibold text-navy">
-                        {COMPANY_INFO.contacts[0].name} <span className="text-[10px] text-steel font-normal">(Primary)</span>
+                        {COMPANY_INFO.contacts[0].name} <span className="text-[10px] text-steel font-normal"></span>
                       </p>
                       <a
                         href={`tel:+91${COMPANY_INFO.contacts[0].phone}`}
@@ -141,17 +141,7 @@ export default function ContactPage() {
                       </a>
                     </div>
 
-                    <div>
-                      <p className="text-xs font-semibold text-navy">
-                        {COMPANY_INFO.contacts[1].name}
-                      </p>
-                      <a
-                        href={`tel:+91${COMPANY_INFO.contacts[1].phone}`}
-                        className="text-sm font-bold text-corporate hover:text-steel tracking-wide flex items-center gap-1 mt-0.5"
-                      >
-                        {COMPANY_INFO.contacts[1].displayPhone}
-                      </a>
-                    </div>
+                    
                   </div>
                 </div>
               </div>
@@ -175,16 +165,9 @@ export default function ContactPage() {
                         className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold shadow-sm transition-colors"
                       >
                         <MessageSquare className="w-3.5 h-3.5 fill-white" />
-                        <span>Chat with Pramod Yamgar</span>
+                        <span>Chat with Techwave Enterprises</span>
                       </a>
-                      <a
-                        href={COMPANY_INFO.socials.whatsappSecondary}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-lg bg-emerald-900/10 hover:bg-emerald-900/20 text-emerald-800 text-xs font-bold border border-emerald-500/30 transition-colors"
-                      >
-                        <span>Chat with Ganesh Jamdade</span>
-                      </a>
+                      
                     </div>
                   </div>
                 </div>
@@ -199,7 +182,7 @@ export default function ContactPage() {
                   <div className="space-y-2 flex-1">
                     <h3 className="text-sm font-bold text-navy uppercase tracking-wider">Official Email</h3>
                     <p className="text-xs text-navy/70">
-                      Send purchase orders, RFQs, technical sheets, or tender documents.
+                      Send purchase orders'
                     </p>
                     <p className="text-sm font-bold text-navy font-mono">
                       {COMPANY_INFO.email}
@@ -267,8 +250,7 @@ export default function ContactPage() {
                       <p>{COMPANY_INFO.address.street}</p>
                       <p>{COMPANY_INFO.address.cityState}</p>
                       <p className="text-[11px] text-navy/60 italic pt-1 border-t border-ice/50">
-                        * Exact plot/unit coordinates to be updated upon final registry verification before publishing.
-                      </p>
+                        </p>
                     </div>
 
                     <div className="pt-1">
