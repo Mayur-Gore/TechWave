@@ -49,7 +49,7 @@ export default function Footer() {
               <span className="px-3 py-1 rounded-full bg-white/5 border border-white/10 text-ice/90">
                 Electrical Solutions
               </span>
-            </div>
+            </div> 
           </div>
 
           {/* Col 2: Quick Links */}

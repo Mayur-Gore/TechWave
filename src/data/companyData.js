@@ -9,7 +9,7 @@ export const COMPANY_INFO = {
     {
       name: "Techwave Enterprises",
       role: "Key Business Contact",
-      phone: "+91 8356058098",
+      phone: "8356058098",
       displayPhone: "+91 8356058098",
       whatsapp: "+918356058098",
       isPrimary: true,
