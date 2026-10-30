@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A1931"/>
+      <stop offset="100%" stop-color="#1A3D63"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C79261"/>
+      <stop offset="100%" stop-color="#8D5524"/>
+    </linearGradient>
+    <linearGradient id="copper" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF8A65"/>
+      <stop offset="50%" stop-color="#D84315"/>
+      <stop offset="100%" stop-color="#FFAB91"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg3)"/>
+  <!-- Cable Reel Drum on left -->
+  <g transform="translate(100, 70)">
+    <!-- Back flange -->
+    <ellipse cx="90" cy="130" rx="65" ry="110" fill="#6D3D14"/>
+    <!-- Wound black heavy duty cable drum -->
+    <path d="M 90,40 C 130,40 180,60 180,130 C 180,200 130,220 90,220 L 90,40 Z" fill="#1C232B"/>
+    <!-- Cable texture lines -->
+    <path d="M 110,48 C 145,55 170,85 170,130 C 170,175 145,205 110,212" stroke="#333E4D" stroke-width="6" fill="none"/>
+    <path d="M 130,58 C 155,70 165,95 165,130 C 165,165 155,190 130,202" stroke="#12181F" stroke-width="6" fill="none"/>
+    <!-- Front wooden flange -->
+    <ellipse cx="60" cy="130" rx="55" ry="110" fill="url(#wood)" stroke="#532B0D" stroke-width="3"/>
+    <circle cx="60" cy="130" r="22" fill="#0A1931" stroke="#3A1C06" stroke-width="4"/>
+    <circle cx="60" cy="130" r="12" fill="#122543"/>
+    <!-- Bolt holes -->
+    <circle cx="60" cy="60" r="5" fill="#3A1C06"/>
+    <circle cx="60" cy="200" r="5" fill="#3A1C06"/>
+    <circle cx="35" cy="130" r="5" fill="#3A1C06"/>
+    <circle cx="85" cy="130" r="5" fill="#3A1C06"/>
+  </g>
+  <!-- Multi-core industrial power cables spreading right -->
+  <g transform="translate(290, 110)">
+    <!-- Black outer sheath stripped back -->
+    <path d="M 0,90 Q 60,90 100,70" stroke="#1E293B" stroke-width="32" fill="none" stroke-linecap="round"/>
+    <!-- Red phase -->
+    <path d="M 90,60 Q 150,20 220,15" stroke="#E53935" stroke-width="12" fill="none"/>
+    <circle cx="225" cy="15" r="7" fill="url(#copper)"/>
+    <!-- Yellow phase -->
+    <path d="M 95,68 Q 160,50 220,55" stroke="#FDD835" stroke-width="12" fill="none"/>
+    <circle cx="225" cy="55" r="7" fill="url(#copper)"/>
+    <!-- Blue phase -->
+    <path d="M 95,78 Q 160,95 220,105" stroke="#1E88E5" stroke-width="12" fill="none"/>
+    <circle cx="225" cy="105" r="7" fill="url(#copper)"/>
+    <!-- Green/Earth -->
+    <path d="M 90,88 Q 150,140 220,155" stroke="#43A047" stroke-width="12" fill="none"/>
+    <circle cx="225" cy="155" r="7" fill="url(#copper)"/>
+  </g>
+</svg>

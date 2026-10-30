@@ -1,0 +1,46 @@
+import { BASE_TIMESTAMP } from './seedUsers';
+
+export const seedCrops = [
+  {
+    id: 'crop-1',
+    name: 'Cotton (Hybrid 7007)',
+    area: '2.5 Acres',
+    areaNum: 2.5,
+    sowingDate: '2026-06-25',
+    stage: 'Boll Development & Maturation',
+    health: 'Healthy', // Healthy, Needs Attention, Critical
+    healthScore: 92,
+    irrigationType: 'Drip System',
+    notes: 'Square formation healthy. Yellow sticky traps monitoring active.',
+    createdAt: BASE_TIMESTAMP,
+    updatedAt: BASE_TIMESTAMP,
+  },
+  {
+    id: 'crop-2',
+    name: 'Soybean (JS-335)',
+    area: '1.2 Acres',
+    areaNum: 1.2,
+    sowingDate: '2026-07-04',
+    stage: 'Pod Filling & Ripening',
+    health: 'Needs Attention',
+    healthScore: 68,
+    irrigationType: 'Sprinkler / Rainfed',
+    notes: 'Slight yellowing noticed on lower canopy. Moisture stress check underway.',
+    createdAt: BASE_TIMESTAMP,
+    updatedAt: BASE_TIMESTAMP,
+  },
+  {
+    id: 'crop-3',
+    name: 'Tomato (Abhiraj Hybrid)',
+    area: '0.8 Acre',
+    areaNum: 0.8,
+    sowingDate: '2026-08-15',
+    stage: 'Active Flowering & Fruit Setting',
+    health: 'Healthy',
+    healthScore: 88,
+    irrigationType: 'Inline Drip + Silver Mulch',
+    notes: 'Trellis staking completed. Early harvest scheduled next month.',
+    createdAt: BASE_TIMESTAMP,
+    updatedAt: BASE_TIMESTAMP,
+  },
+];

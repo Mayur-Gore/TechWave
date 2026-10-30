@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A1931"/>
+      <stop offset="100%" stop-color="#1A3D63"/>
+    </linearGradient>
+    <linearGradient id="panelBody" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E2EEF8"/>
+      <stop offset="100%" stop-color="#B3CFE5"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg2)"/>
+  <g transform="translate(150, 60)">
+    <!-- Outer Electrical Panel Cabinet -->
+    <rect x="0" y="0" width="300" height="260" rx="14" fill="url(#panelBody)" stroke="#4A7FA7" stroke-width="5"/>
+    <rect x="15" y="15" width="270" height="230" rx="8" fill="#0A1931"/>
+    <!-- Top DIN rail window with clear smoky shield -->
+    <rect x="30" y="30" width="240" height="90" rx="6" fill="#1A3D63" opacity="0.8" stroke="#4A7FA7" stroke-width="2"/>
+    <!-- Row of Breakers inside -->
+    <rect x="45" y="45" width="20" height="60" rx="3" fill="#F6FAFD"/>
+    <rect x="49" y="55" width="12" height="15" rx="2" fill="#FF9800"/>
+    <rect x="70" y="45" width="20" height="60" rx="3" fill="#F6FAFD"/>
+    <rect x="74" y="55" width="12" height="15" rx="2" fill="#1A3D63"/>
+    <rect x="95" y="45" width="20" height="60" rx="3" fill="#F6FAFD"/>
+    <rect x="99" y="55" width="12" height="15" rx="2" fill="#1A3D63"/>
+    <rect x="120" y="45" width="35" height="60" rx="3" fill="#E2EEF8"/>
+    <rect x="125" y="60" width="25" height="18" rx="2" fill="#FF5722"/>
+    <rect x="160" y="45" width="20" height="60" rx="3" fill="#F6FAFD"/>
+    <rect x="164" y="55" width="12" height="15" rx="2" fill="#1A3D63"/>
+    <rect x="185" y="45" width="20" height="60" rx="3" fill="#F6FAFD"/>
+    <rect x="189" y="55" width="12" height="15" rx="2" fill="#1A3D63"/>
+    <rect x="210" y="45" width="20" height="60" rx="3" fill="#F6FAFD"/>
+    <rect x="214" y="55" width="12" height="15" rx="2" fill="#4CAF50"/>
+    <rect x="235" y="45" width="20" height="60" rx="3" fill="#F6FAFD"/>
+    <rect x="239" y="55" width="12" height="15" rx="2" fill="#1A3D63"/>
+    <!-- Busbar / Wiring section -->
+    <rect x="30" y="140" width="240" height="85" rx="6" fill="#122543" stroke="#245284"/>
+    <line x1="50" y1="165" x2="250" y2="165" stroke="#E65100" stroke-width="4"/>
+    <line x1="50" y1="180" x2="250" y2="180" stroke="#FFD54F" stroke-width="4"/>
+    <line x1="50" y1="195" x2="250" y2="195" stroke="#2196F3" stroke-width="4"/>
+    <!-- Key lock & handle -->
+    <circle cx="280" cy="130" r="7" fill="#4A7FA7"/>
+    <rect x="278" y="127" width="4" height="14" fill="#0A1931"/>
+  </g>
+</svg>
